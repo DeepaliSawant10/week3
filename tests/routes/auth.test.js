@@ -19,7 +19,7 @@ afterAll(async () => {
   await mongoose.disconnect();
   await mongoServer.stop();
 });
-
+//test comment
 describe('POST /api/auth/signup', () => {
 it('To check sign up for a new user and should return 201 with data', async () => {
     // Check if the user already exists
